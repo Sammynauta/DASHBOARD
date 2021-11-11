@@ -3,3 +3,59 @@
     box-shadow: 1px 1px 10px 2px #24242434;
     padding: 20px;
 }
+
+.widgetLgTitle {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTh {
+    text-align: left;
+}
+
+.widgetLgUser {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.widgetLgImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.widgetLgDate, .widgetLgAmount {
+    font-weight: 300;
+}
+
+.widgetLgButton {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Approved {
+    background-color: #dffdf2;
+    color: #21694f;
+}
+
+.Declined {
+    background-color: #ffe2e4;
+    color: #bd3941;
+}
+
+.Pending {
+    background-color: #d9e5ff;
+    color: #1d4499;
+   
+}
