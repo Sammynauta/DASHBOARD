@@ -1,4 +1,4 @@
-import { AlternateEmail, CalendarToday, LocationOn, PersonOutline, Phone } from "@material-ui/icons";
+import { AlternateEmail, CalendarToday, LocationOn, PersonOutline, Phone, PublishOutlined } from "@material-ui/icons";
 import "./User.css";
 
 export default function User() {
@@ -68,7 +68,12 @@ export default function User() {
                             </div>
                         </div>
                         <div className="userUpdateRight">
-
+                            <div className="userUpdateUpload">
+                                <img src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className='userUpdateImg' alt="fotoUser" />
+                                <label htmlFor="file"><PublishOutlined className="UploadFile" /></label>
+                                <input type="file" id="file" />
+                            </div>
+                            <button className="userUpdateButton">Update</button>
                         </div>
                     </form>
                 </div>
