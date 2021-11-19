@@ -1,8 +1,8 @@
-import "./Products.css"
+import "./ProductsList.css"
 
 export default function Products() {
     return (
-        <div className='Products'>
+        <div className='ProductsList'>
             
         </div>
     )
