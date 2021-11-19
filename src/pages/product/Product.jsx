@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Product.css";
+import Chart from "../../components/chart/Chart";
+import { productData } from "../../dummyData";
 
 export default function Product() {
   return (
@@ -10,6 +12,13 @@ export default function Product() {
           <button className="productAddButton">Create</button>
         </Link>
       </div>
+      <div className="productTop">
+          <div className="productTopLeft">
+              <Chart data={productData} dataKey="Sales" title="Sales Performance" />
+          </div>
+          <div className="productTopRight"></div>
+      </div>
+      <div className="productBottom"></div>
     </div>
   );
 }
