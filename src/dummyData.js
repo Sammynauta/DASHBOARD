@@ -50,112 +50,205 @@
 ];
 
 export const userRows = [
+  {
+    id: 1,
+    username: "John",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "jon@email.com",
+      status: "active",
+      transactions: "$180.00",
+  },
+  {
+    id: 2,
+    username: "Joseph",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "joseph@email.com",
+      status: "active",
+      transactions: "$220.00",
+  },
+  {
+    id: 3,
+    username: "Antony",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "antony@email.com",
+      status: "active",
+      transactions: "$360.00",
+  },
+  {
+    id: 4,
+    username: "Oliver",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "oliver@email.com",
+      status: "active",
+      transactions: "$950.00",
+  },
+  {
+    id: 5,
+    username: "Mac",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "mac@email.com",
+      status: "active",
+      transactions: "$873.00",
+  },
+  {
+    id: 6,
+    username: "Joe",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "joe@email.com",
+      status: "active",
+      transactions: "$672.00",
+  },
+  {
+    id: 7,
+    username: "John",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "jon@email.com",
+      status: "active",
+      transactions: "$180.00",
+  },
+  {
+    id: 8,
+    username: "Joseph",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "joseph@email.com",
+      status: "active",
+      transactions: "$220.00",
+  },
+  {
+    id: 9,
+    username: "Antony",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "antony@email.com",
+      status: "active",
+      transactions: "$360.00",
+  },
+  {
+    id: 10,
+    username: "Oliver",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "oliver@email.com",
+      status: "active",
+      transactions: "$950.00",
+  },
+  {
+    id: 11,
+    username: "Mac",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "mac@email.com",
+      status: "active",
+      transactions: "$873.00",
+  },
+  {
+    id: 12,
+    username: "Joe",
+    avatar:
+      "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "joe@email.com",
+      status: "active",
+      transactions: "$672.00",
+  },
+];
+
+export const productRows = [
     {
       id: 1,
-      username: "John",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "jon@email.com",
+      name: "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$180.00",
+        price: "$180.00",
     },
     {
       id: 2,
-      username: "Joseph",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "joseph@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$220.00",
+        price: "$180.00",
     },
     {
       id: 3,
-      username: "Antony",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "antony@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$360.00",
+        price:"$180.00",
     },
     {
       id: 4,
-      username: "Oliver",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "oliver@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock:"120",
         status: "active",
-        transactions: "$950.00",
+        price: "$180.00",
     },
     {
       id: 5,
-      username: "Mac",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "mac@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$873.00",
+        price: "$180.00",
     },
     {
       id: 6,
-      username: "Joe",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "joe@email.com",
+      name: "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$672.00",
+        price: "$180.00",
     },
     {
       id: 7,
-      username: "John",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "jon@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$180.00",
+        price: "$180.00",
     },
     {
       id: 8,
-      username: "Joseph",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "joseph@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$220.00",
+        price: "$180.00",
     },
     {
       id: 9,
-      username: "Antony",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "antony@email.com",
+      name: "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$360.00",
+        price: "$180.00",
     },
     {
       id: 10,
-      username: "Oliver",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "oliver@email.com",
+      name:  "Apple Airpods",
+      img:
+       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        stock: "120",
         status: "active",
-        transactions: "$950.00",
-    },
-    {
-      id: 11,
-      username: "Mac",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "mac@email.com",
-        status: "active",
-        transactions: "$873.00",
-    },
-    {
-      id: 12,
-      username: "Joe",
-      avatar:
-        "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "joe@email.com",
-        status: "active",
-        transactions: "$672.00",
+        price: "$180.00",
     },
   ];
