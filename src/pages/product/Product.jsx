@@ -16,9 +16,36 @@ export default function Product() {
           <div className="productTopLeft">
               <Chart data={productData} dataKey="Sales" title="Sales Performance" />
           </div>
-          <div className="productTopRight"></div>
+          <div className="productTopRight">
+            <div className="productInfoTop">
+              <img src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className='productInfoImg' alt="" />
+              <span className="productName">Apple Airpods</span>
+            </div>
+            <div className="productInfoBottom">
+              <div className="productInfoItem">
+                <span className="productInfoKey">id:</span>
+                <span className="productInfoValue">180</span>
+              </div>
+              <div className="productInfoItem">
+                <span className="productInfoKey">sales:</span>
+                <span className="productInfoValue">180</span>
+              </div>
+              <div className="productInfoItem">
+                <span className="productInfoKey">active:</span>
+                <span className="productInfoValue">yes</span>
+              </div>
+              <div className="productInfoItem">
+                <span className="productInfoKey">in stock:</span>
+                <span className="productInfoValue">no</span>
+              </div>
+            </div>
+          </div>
       </div>
-      <div className="productBottom"></div>
+      <div className="productBottom">
+        <form className="productForm">
+          
+        </form>
+      </div>
     </div>
   );
 }
