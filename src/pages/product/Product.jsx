@@ -25,7 +25,7 @@ export default function Product() {
             <div className="productInfoBottom">
               <div className="productInfoItem">
                 <span className="productInfoKey">id:</span>
-                <span className="productInfoValue">180</span>
+                <span className="productInfoValue">1</span>
               </div>
               <div className="productInfoItem">
                 <span className="productInfoKey">sales:</span>
@@ -62,7 +62,7 @@ export default function Product() {
             <div className="productUpload">
               <img src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="productUploadImg" />
               <label for="file">
-                <Publish/>
+                <Publish className="productUploadIcon" />
               </label>
               <input type="file" id="file" style={{display:"none"}}/>
             </div>
