@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Product.css";
 import Chart from "../../components/chart/Chart";
 import { productData } from "../../dummyData";
+import { Publish } from "@material-ui/icons";
 
 export default function Product() {
   return (
@@ -60,7 +61,12 @@ export default function Product() {
           <div className="productFormRight">
             <div className="productUpload">
               <img src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="productUploadImg" />
+              <label for="file">
+                <Publish/>
+              </label>
+              <input type="file" id="file" style={{display:"none"}}/>
             </div>
+            <button className="productButton">Update</button>
           </div>
         </form>
       </div>
