@@ -43,7 +43,25 @@ export default function Product() {
       </div>
       <div className="productBottom">
         <form className="productForm">
-          
+          <div className="productFormLeft">
+            <label>Product Name</label>
+            <input type='text' placeholder='Apple AirPod'></input>
+            <label>In Stock</label>
+            <select name="inStock" id="idStock">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            <label>Active</label>
+            <select name="active" id="active">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div className="productFormRight">
+            <div className="productUpload">
+              <img src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="productUploadImg" />
+            </div>
+          </div>
         </form>
       </div>
     </div>
